@@ -1,5 +1,5 @@
 #Write your code here in python 
-marks = input("Enter your Marks: ") # marks variable is been given input
+marks = input() # marks variable is been given input
     
 if(marks=="EXIT"): # when I input EXIT then program should exit
   print("Exit the program")
@@ -17,3 +17,4 @@ try: # if I give any input then try should execute but if some error occurs then
         
 except ValueError: # when input is other than digits
   print("Error....Enter number bw 0 and 100")
+# End of Program
