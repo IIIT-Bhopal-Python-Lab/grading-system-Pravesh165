@@ -1,7 +1,7 @@
 #Write your code here in python
 def get_grade():
 
-    marks = input() # marks variable is been given input
+    marks = input("Enter your marks here: ") # marks variable is been given input
     
     if(marks=="EXIT"): # when I input EXIT then program should exit
         print("Exit the program")
